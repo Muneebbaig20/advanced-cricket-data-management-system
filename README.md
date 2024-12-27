@@ -1,4 +1,4 @@
-# Assembly Language Project: Irvine Library Example
+
 
 This project demonstrates assembly language programming using the **Irvine32 Library** for x86 architecture. The Irvine library provides useful macros, input/output functions, and more for assembly language programs.
 
@@ -12,8 +12,7 @@ This project demonstrates assembly language programming using the **Irvine32 Lib
 ## 🛠️ Setting Up the Irvine32 Library
 
 1. **Download the Irvine32 Library**:
-   - You can download the **Irvine32 Library** from [https://www.asmirvine.com/](https://www.asmirvine.com/) or from the textbook's companion website if you are using the *"Assembly Language for x86 Processors"* by Kip R. Irvine.
-
+   -
 2. **Include Irvine32 Library Files**:
    After downloading the library, include the following files in your project:
    - `Irvine32.inc` (includes macros for easy input/output handling)
@@ -25,8 +24,3 @@ This project demonstrates assembly language programming using the **Irvine32 Lib
    - **Library directory**: Point to the folder containing `Irvine32.lib`.
    - **Linker input**: Ensure that `Irvine32.lib` is added as an additional dependency.
 
-   If you're using **MASM** on the command line, you can add the library like this:
-
-   ```bash
-   ml /c /coff my_program.asm
-   link /subsystem:console my_program.obj Irvine32.lib
